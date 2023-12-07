@@ -196,22 +196,65 @@ daftar_nilai_mahasiswa.tampilkan()
 
 <H1>FLOWCHART</H1>
 
+![pln](https://github.com/sentosa2505/pertemuan12/assets/148040303/3eaadcb6-c8d3-4e47-a5a0-3887b5d7416d)
 
-![fc](https://github.com/calamities17/PERTEMUAN12/assets/147371058/df2e98ff-29f0-4b48-8d69-79dcb8bbbf64)
 
 *Penjelasan FlowChart:*
 
-1. *Start:* Menandakan awal dari flowchart.
-2. *Create DaftarNilaiMahasiswa:* Membuat objek dari kelas DaftarNilaiMahasiswa.
-3. *Tambah("Lintang", 85):* Menambahkan data mahasiswa dengan nama "Lintang" dan nilai 85.
-4. *Tambah("afif", 90):* Menambahkan data mahasiswa dengan nama "afif" dan nilai 90.
-5. *Tambah("nabil", 78):* Menambahkan data mahasiswa dengan nama "nabil" dan nilai 78.
-6. *Tampilkan():* Menampilkan daftar nilai mahasiswa.
-7. *Hapus("afif"):* Menghapus data mahasiswa dengan nama "afif".
-8. *Tampilkan():* Menampilkan daftar nilai mahasiswa setelah penghapusan.
-9. *Ubah("lintang", 95):* Mengubah nilai mahasiswa dengan nama "lintang" menjadi 95.
-10. *Tampilkan():* Menampilkan daftar nilai mahasiswa setelah perubahan.
-11. *Stop:* Menandakan akhir dari flowchart.
+Berikut adalah penjelasan langkah-demi-langkah dari flowchart untuk kode Python yang diberikan:
+
+1. **Mulai:**
+   - Program dimulai dengan pembuatan instance dari kelas `DaftarNilaiMahasiswa`, yang dinamai `daftar_nilai_mahasiswa`.
+
+2. **Menambahkan Data:**
+   - Tiga data mahasiswa ditambahkan menggunakan metode `tambah`:
+     - Mahasiswa "agung" dengan nilai 85.
+     - Mahasiswa "lintang" dengan nilai 90.
+     - Mahasiswa "nabil" dengan nilai 78.
+
+3. **Menampilkan Data:**
+   - Metode `tampilkan` dipanggil untuk menampilkan daftar nama mahasiswa beserta nilai mereka.
+
+4. **Menghapus Data (jika berlaku):**
+   - Metode `hapus` dipanggil untuk menghapus mahasiswa dengan nama "nabil" dari daftar, dan pesan dicetak berdasarkan apakah mahasiswa tersebut ditemukan atau tidak.
+
+5. **Mengubah Data (jika berlaku):**
+   - Metode `ubah` dipanggil untuk mengubah nilai mahasiswa dengan nama "lintang" menjadi 95, dan pesan dicetak berdasarkan apakah mahasiswa tersebut ditemukan atau tidak.
+
+6. **Menampilkan Data Lagi:**
+   - Metode `tampilkan` dipanggil sekali lagi untuk menampilkan daftar nama mahasiswa yang telah diperbarui beserta nilai mereka.
+
+7. **Selesai:**
+   - Eksekusi program selesai.
+
+Simbol Flowchart:
+- **Kotak Persegi Panjang:** Mewakili proses atau operasi.
+- **Belah Ketupat:** Mewakili titik keputusan (misalnya, pemeriksaan kondisi).
+- **Persegi Panjang Miring:** Mewakili input atau output.
+- **Panah:** Menunjukkan alur kontrol.
+
+Penjelasan Flowchart:
+1. **Mulai**
+2. **Proses: Buat instance `DaftarNilaiMahasiswa`**
+3. **Proses: Tambahkan "agung" dengan nilai 85**
+4. **Proses: Tambahkan "lintang" dengan nilai 90**
+5. **Proses: Tambahkan "nabil" dengan nilai 78**
+6. **Proses: Tampilkan data mahasiswa**
+7. **Keputusan: Apakah mahasiswa "nabil" ada?**
+   - **Ya:**
+     - **Proses: Hapus "nabil"**
+   - **Tidak:**
+     - **Proses: Cetak "Data mahasiswa nabil tidak ditemukan."**
+8. **Proses: Tampilkan data mahasiswa**
+9. **Keputusan: Apakah mahasiswa "lintang" ada?**
+   - **Ya:**
+     - **Proses: Ubah nilai "lintang" menjadi 95**
+   - **Tidak:**
+     - **Proses: Cetak "Data mahasiswa lintang tidak ditemukan."**
+10. **Proses: Tampilkan data mahasiswa**
+11. **Selesai**
+
+Catatan: Dalam flowchart, mungkin digunakan bentuk yang berbeda untuk elemen yang berbeda (misalnya, kotak persegi panjang untuk proses, belah ketupat untuk keputusan). Penyesuaian dapat dilakukan berdasarkan konvensi dari alat pembuat flowchart yang digunakan.
 
 <H1>Diagram Class</H1>
 
